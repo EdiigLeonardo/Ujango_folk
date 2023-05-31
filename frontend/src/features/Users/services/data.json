@@ -1,0 +1,92 @@
+{
+  "users": [
+    {
+      "user_id": 101,
+      "username": "@Lorem",
+      "profile_name": "john due",
+      "avatar": "",
+      "cover_pic": "",
+      "certified": true
+    },
+    {
+      "user_id": 102,
+      "username": "@jose.steecky",
+      "profile_name": "jose keith",
+      "avatar": "",
+      "cover_pic": "",
+      "certified": false
+    },
+    {
+      "user_id": 103,
+      "username": "@helly",
+      "profile_name": "Hell bird",
+      "avatar": "",
+      "cover_pic": "",
+      "certified": true
+    },
+
+    {
+      "user_id": 104,
+      "username": "@maria.kelly",
+      "profile_name": "Maria Monteiro",
+      "avatar": "",
+      "cover_pic": "",
+      "certified": false
+    },
+    {
+      "user_id": 105,
+      "username": "@elit",
+      "profile_name": "Eliiot tommy",
+      "avatar": "",
+      "cover_pic": "",
+      "certified": true
+    }
+  ],
+
+  "posts": [
+    {
+      "post_id": 1,
+      "username": "@maria.kelly",
+      "profile_name": "Maria Monteiro",
+      "avatar": "",
+      "time": "1h",
+      "place": "Lisbon",
+      "certified": true,
+      "description": "I am so proud of me",
+      "image": ""
+    },
+    {
+      "user_id": 2,
+      "username": "@rust.pie",
+      "profile_name": "Rust Kellie",
+      "avatar": "",
+      "time": "5h",
+      "place": "Porto",
+      "certified": true,
+      "description": "Nothing to comment",
+      "image": ""
+    },
+    {
+      "user_id": 3,
+      "username": "@elit",
+      "profile_name": "Terry Alie",
+      "avatar": "",
+      "time": "1h",
+      "place": "New York",
+      "certified": true,
+      "description": "Not sure what the life holds",
+      "image": ""
+    },
+    {
+      "user_id": 4,
+      "username": "@Janila.torres",
+      "profile_name": "Janila Bergue Torres",
+      "avatar": "",
+      "time": "1h",
+      "place": "Los Angeles",
+      "certified": false,
+      "description": "I am so proud of me",
+      "image": ""
+    }
+  ]
+}

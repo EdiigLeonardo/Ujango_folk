@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Ujango enterprise",
+    "img": "https://picsum.photos/400?random=1",
+    "description": "rus sagittis a. Maecenas nec elit mi. Quisque ac massa est."
+  },
+  {
+    "name": "NASA Company",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "img": "https://picsum.photos/400?random=2"
+  },
+  {
+    "name": "Zoom copy",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "img": "https://picsum.photos/400?random=3"
+  }
+]

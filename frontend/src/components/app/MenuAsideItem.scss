@@ -1,0 +1,19 @@
+.menu-aside-item {
+  display: flex;
+  padding: 0.25rem 0;
+  font-size: 1.10rem;
+
+  div span {
+    padding: 0 .25rem;
+  }
+
+  .count {
+    justify-content: center;
+    background: #f00;
+    color: #fff;
+    font-size: 1rem;
+    border-radius: 1rem;
+    padding: .20rem;
+  }
+
+}

@@ -1,0 +1,32 @@
+.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: start;
+    padding: 1rem;
+    color: #3f4344;
+    border-radius: 0.8rem;
+
+    p{
+      a{
+        color: #f85a5b;
+      }
+
+    }
+
+    .member_since_separator{
+      
+        border: 1px solid #dfdfdf;
+        width:100%;
+
+    }
+ 
+    .member_since{
+      color: #677682;
+      span{
+        padding-left: 0.4rem;
+      }
+      
+    }
+  
+}

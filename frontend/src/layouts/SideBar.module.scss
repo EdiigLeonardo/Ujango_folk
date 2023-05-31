@@ -1,0 +1,33 @@
+$baseOrangeColor: var(--baseMainColor);
+
+.aside{
+    ul {
+        flex-grow: 1;
+        padding: 0;
+        margin: 0;
+    }
+    .title {
+        color: #2d3435 !important;
+        font-weight: 600;
+        margin: 0;
+        font-size: 22px;
+    }
+    .subtitle {
+        color: #656565 !important;
+        font-weight: normal;
+        margin: 0;
+        font-size: 14px;
+    }
+    .active{
+        color: $baseOrangeColor !important;
+        text-decoration: none;
+        cursor: pointer;
+      }
+
+    .inactive{
+        color: #2d3435 !important;
+        cursor: pointer;
+        text-decoration: none;
+    }
+}
+  

@@ -1,0 +1,49 @@
+.market_item {
+  color: #2d3436;
+  border-radius: 0.5rem;
+  //border: 1px solid #ececed;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  font-size: 14x;
+
+  img {
+    height: 200px;
+    object-fit: cover;
+    width: 100%;
+    border-top-right-radius: 0.5rem;
+    border-top-left-radius: 0.5rem;
+  }
+  .details {
+  height: 177px;
+  padding: 5px 10px;
+
+    h3 {
+      font-size: 18px;
+      font-weight: bold;
+    }
+    h2 {
+      font-size: 14px;
+      font-weight: bold;
+    }
+    p {
+      //line-height: 3rem;
+      //max-lines:2;
+      -webkit-line-clamp: 2;
+      line-clamp: 2;
+      font-size: 14px;
+      min-height: 2.5rem;
+      margin-bottom: 8px;
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      text-overflow: ellipsis;
+      overflow: hidden;
+    }
+    h4 {
+      font-size: 12px;
+      color: #999;
+    }
+    .author {
+      text-align: right;
+    }
+  }
+
+}

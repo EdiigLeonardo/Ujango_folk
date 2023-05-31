@@ -1,0 +1,52 @@
+$color-white: #fff;
+$color-grey-600: #adb5bd;
+$color-grey-700: #495057;
+$color-orange: var(--baseMainColor);
+$color-background-input: #f0f0ff;
+$radius: 0.4em;
+
+.form {
+  position: relative;
+  width: 100%;
+
+  &__label {
+    position: absolute;
+    left: 1rem;
+    top: 0.5rem;
+    padding: 0 0.5rem;
+    background-color: $color-white;
+    font-size: 1em;
+    color: $color-grey-600;
+    cursor: text;
+    transition: top 150ms ease-in, left 150ms ease-in, font-size 150ms ease-in,
+      color 150ms ease-in;
+  }
+
+  &__input {
+    background-color: $color-white !important;
+    
+
+    &:hover {
+      border: 1px solid $color-grey-600;
+    }
+
+    &:focus {
+      box-shadow: none;
+      /*box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;*/
+      border: 1px solid $color-orange;
+    }
+  }
+}
+
+.form__input:focus ~ .form__label,
+.form__input:not(:placeholder-shown).form__input:not(:focus) ~ .form__label {
+  position: absolute;
+  left: 0.8rem;
+  top: -0.7rem;
+  color: $color-orange;
+  padding: 0 5px;
+  background-color: $color-white;
+  border-radius: $radius;
+  font-size: 0.8rem;
+  z-index: 10;
+}

@@ -1,0 +1,129 @@
+$coverPhotoHeight: 40vh;
+$coverPhotoWidth: 90rem;
+$profilePhotoWidth: 12rem;
+$baseOrangeColor:#f85a5b;
+$baseWhiteColor: #ffff;
+
+.profile_container{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  //max-height: 65vh;
+  //gap: 1.2rem;
+  align-items: center;
+  background-color: #ffffff;
+  border-bottom: 1px solid #dfdfdf;
+
+  
+  
+  .profile_images{
+    height: $coverPhotoHeight;
+    width: $coverPhotoWidth;
+    position:relative;
+    
+    .profile_cover_photo{
+      aspect-ratio: auto 16/9;
+      width:100%;
+      height:100%;
+      border-radius: .25rem;
+      object-fit:cover;
+      box-shadow: 0 1px 2px rgb(0 0 0 / 10%);
+
+    }
+
+    .avatar{
+      position:absolute;
+      width: $profilePhotoWidth;
+      top:calc(100% - #{$profilePhotoWidth}/2);
+      left:20%;
+      aspect-ratio: 1;
+      border: 3px solid $baseWhiteColor;
+      border-radius: 50%;
+    }
+  }
+
+  .profile_username_info{
+    p{
+      color: #677682;
+      font-size: 1.15rem;
+      margin: 0rem;
+
+      strong{
+        color: #000000;
+       // font-weight: 400;
+        font-size: 1.75rem;
+        
+      }
+    
+    }
+
+  }
+
+
+.profile_details{
+  width:  $coverPhotoWidth;
+  margin:.5rem;
+
+ .btn_profile_menu{
+    border:none;
+    padding: .5rem;
+    align-self: center;
+    font-size: 1rem;
+    font-weight: bold;
+    position:relative;
+
+    &:hover{
+      color: initial;
+      background-color: rgb(239, 236, 236);
+    }
+
+    /*
+    &::after{
+      content:"";
+      left:0;
+      //bottom:-0.8em;
+      //width:100%;
+      height:2px;
+      background-color: red;
+      position: absolute;
+     }*/
+
+     &:hover::after{
+      content:"";
+      left:0;
+      bottom: -0.75rem;
+      width:100%;
+      height:2px;
+      background-color: red ;
+      position: absolute;
+      transition: 0.3s;
+     }
+ }
+
+ .btn_circle{
+  border-radius:50%;
+  padding-inline:1rem;
+  padding-top:0.75rem;
+  padding-bottom:0.75rem;
+
+  border-color: $baseOrangeColor;
+  i{
+    color: $baseOrangeColor;
+  
+  }
+
+  &:hover{
+    background-color: $baseOrangeColor;
+    i{
+      color: $baseWhiteColor !important;
+    
+    }
+
+  }
+ 
+
+ }
+}
+
+}
+

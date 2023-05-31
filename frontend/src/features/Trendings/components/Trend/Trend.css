@@ -1,0 +1,21 @@
+.trend {
+  background: #fff;
+  border-radius: 0.8rem;
+  box-shadow: 0 1px 2px rgb(0 0 0 / 20%);
+  background: #f7f9f9;
+
+}
+.trend h1 {
+ padding: 15px 15px 5px;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+.trend ul {
+  padding: 0;
+}
+.trend a {
+  padding: 0 15px 15px;
+  text-decoration: none;
+  font-size: 15px;
+  display: block;
+}

@@ -1,0 +1,95 @@
+$baseOrangeColor: var(--baseMainColor);
+
+.notification {
+  display: flex;
+  padding: 10px;
+  background-color: #ffffff;
+  border-bottom: 1px solid #e6e6e6;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5px;
+  margin-bottom: 0.05rem;
+
+  .leftSide{
+    display: flex;
+    align-items: stretch;
+    margin: 3px;
+    justify-content: space-evenly;
+    gap: 2px;
+
+    .image{
+      .imgSc{
+          width: 56px;
+          height: 56px;
+          object-fit: cover;
+          border-radius: 100%;
+          object-position: center;
+            }
+          }
+
+    
+    .notificationInfo{
+      display: flex;
+    /* align-items: center; */
+      flex-direction: column;
+      flex: 1;
+      padding-left: 0.302em;
+
+      .notificationText{
+        display: flex;
+        gap: 5px;
+
+          .name{
+            font-size: 0.9em;
+            color: #212521;
+            font-weight: 600;
+            //margin: 5px;
+            line-height: inherit!important;
+              }
+    
+        .icon {
+          font-size: 18px;
+          margin-right: 10px;
+          color: #0073b1;
+              }
+    
+        .message {
+          flex-grow: 1;
+          font-size: 14px;
+          color: #333333;
+                }
+        }
+      }
+      
+    .btnDiv{
+      flex: 1;
+      display: flex;
+      align-items: center;
+
+      .btn{
+        border-radius: 30px;
+        font-size: 0.9em;
+        border: 1px solid $baseOrangeColor;
+        background-color: transparent;
+
+        
+      }
+
+      .btn:hover{
+        background-color: $baseOrangeColor;
+        color: #ffffff;
+        //box-shadow: 2px 2px $baseOrangeColor;
+      }
+
+    }
+  }
+
+
+  .rightSide{
+    .time {
+      font-size: 12px;
+      color: #666666;
+      margin-left: 10px;
+        }
+    }
+  }

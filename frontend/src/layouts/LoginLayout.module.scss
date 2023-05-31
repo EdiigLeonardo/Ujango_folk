@@ -1,0 +1,231 @@
+@import url("https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&family=Pacifico&family=Praise&family=Righteous&family=Sarala:wght@400;700&display=swap");
+
+.login{
+    height: 100vh;
+    display: grid;
+   
+    gap: 6rem;
+    padding-top: 1.2rem;
+    grid-template-areas:
+    "main"
+    "footer";
+       
+
+
+    main{
+        grid-area: main; 
+
+    }
+
+    .footer{
+        grid-area: footer; 
+
+    }
+
+
+
+    /*
+    img{
+        border-radius: 50%;
+        color: inherit;
+        background: transparent !important;
+    }
+
+    .App {
+    text-align: center;
+    background-color: #faf9f9;
+    }
+
+    .App-logo {
+    height: 40vmin;
+    pointer-events: none;
+    }
+
+    @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+        animation: App-logo-spin infinite 20s linear;
+    }
+    }
+
+    .App-header {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    }
+
+    .App-link {
+    color: #61dafb;
+    }
+
+    @keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+    }
+
+    .container-css {
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: space-around;
+    align-items: center;
+    border-radius: 8px;
+    }
+
+    .Auth-form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    }
+
+    .Auth-form {
+    width: 420px;
+    box-shadow: rgb(0 0 0 / 10%) 0px 0px 10px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    background-color: white;
+    }
+
+    .Auth-form-content {
+    padding-left: 12%;
+    padding-right: 12%;
+    }
+
+    .Auth-form-title {
+    text-align: center;
+    margin-bottom: 1em;
+    font-family: "Pacifico", cursive;
+    font-size: 30px;
+    font-weight: 800;
+    }
+
+    .Auth-form-sub-title {
+    text-align: center;
+    margin-bottom: 1em;
+    font-family: "Pacifico", cursive;
+    font-size: 20px;
+    font-weight: 800;
+    }
+
+    label {
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(34, 34, 34);
+    }
+
+    .login {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    .login__container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #dcdcdc;
+    padding: 30px;
+    }
+    .login__textBox {
+    padding: 10px;
+    font-size: 18px;
+    margin-bottom: 10px;
+    }
+    .login__btn {
+    padding: 10px;
+    font-size: 18px;
+    margin-bottom: 10px;
+    border: none;
+    color: white;
+    background-color: black;
+    }
+    .login__google {
+    background-color: #4285f4;
+    }
+    .login div {
+    margin-top: 7px;
+    }
+
+    .m {
+    margin-top: 0 !important;
+    }
+
+    .main-name {
+    font-size: 80px;
+    }
+
+    .login__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    padding: 50%;
+    }
+
+    .page-network {
+    color: #f85a5b !important;
+    }
+
+    .bi-google {
+    background: conic-gradient(
+        from -45deg,
+        #ea4335 110deg,
+        #4285f4 90deg 180deg,
+        #34a853 180deg 270deg,
+        #fbbc05 270deg
+        )
+        73% 55%/150% 150% no-repeat;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+    }
+
+    .bi-google,
+    .bi-facebook {
+    font-size: 18px;
+    }
+
+    .btn-start-value {
+    font-size: 20px;
+    text-transform: none;
+    }
+
+    #form-style-c {
+    padding: 0px;
+    font-size: 18px;
+    margin-top: 10px;
+    width: 100% !important;
+    }
+
+    .btn-border {
+    border-color: #212529 !important;
+    }
+
+    .btn__styles {
+    padding: 10px;
+    font-size: 18px;
+    margin-top: 10px;
+    width: 100%;
+    }
+
+    .container_body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }*/
+}

@@ -1,0 +1,54 @@
+.market {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  padding: 15px;
+}
+
+body,
+html {
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f2f5;
+}
+
+.aside .title {
+  font-size: 20px;
+  color: #fff;
+}
+
+.main {
+  background: #fff;
+  padding: 0 !important;
+  border-radius: 1rem;
+  box-shadow: 0 1px 2px rgb(0 0 0 / 20%);
+}
+.market-label {
+  color: #000;
+  border-bottom: 1px solid #ececed;
+  padding: 10px 15px 7px;
+}
+.market-label h2 {
+  color: #000;
+  font-size: 18px;
+  margin: 0;
+}
+.btns {
+  background: #f5f8fa;
+  border-radius: 0.5rem;
+}
+
+.btns div {
+  padding: 4px 8px;
+  font-size: 14px;
+}
+
+.btns .active {
+  background: #e2e8ef;
+  border-top-right-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+}
+.marketplace-body {
+  margin-top: 4.5rem;
+}

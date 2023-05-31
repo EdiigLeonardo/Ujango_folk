@@ -1,0 +1,20 @@
+
+/*.btn-outline-danger {
+  color: white;
+  border: none;
+  background: transparent !important; /*main color of App*/
+
+  .btn{
+    width: 100%;
+    margin-top: 0.5rem;
+    background-color: var(--baseMainColor);
+
+    .btn_text{
+      color: white;
+      font-weight: bold;
+    }
+
+
+  }
+
+

@@ -1,0 +1,43 @@
+$margin-sidebar:8vw;
+
+@media only screen and (min-width: 36rem){
+    .base_layout{
+        height: 100vh;
+        display: grid;
+        grid-template-areas:
+        "header"
+        "main";
+       
+        .header{
+            grid-area: header; 
+        }
+
+        .wrapper{
+            grid-area: main;
+            overflow: auto;
+            display:grid;
+            grid-template-columns: 1fr 3fr;
+           
+            grid-template-areas:"sidebar main_content";
+
+            .sidebar{
+                grid-area: sidebar;
+                padding:1.2rem;
+                padding-left:$margin-sidebar;
+            }
+
+            .main_content{
+                display: grid;
+                overflow: auto;
+                padding-right:$margin-sidebar !important;
+
+                padding:1.2rem;
+                gap:1.2rem;
+                grid-area: main_content;
+                grid-template-columns: 2fr 1fr;
+        
+                }
+        }
+    }
+
+}

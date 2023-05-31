@@ -1,0 +1,150 @@
+$baseOrangeColor: var(--baseMainColor);
+.circle_wrap {
+   position: relative;
+    margin: 1rem auto;
+    width: 10rem;
+    height: 10rem;
+    background: #fefcff;
+    border-radius: 50%;
+    background-color: #fae2e2;
+
+    .inside_circle {
+        margin-top:0.75rem;
+        margin-left: 0.75rem;
+
+        width: 8.5rem;
+        height: 8.5rem;
+        border-radius: 50%;
+        background:rgb(255, 255, 255);
+        line-height: 8.5rem;
+        text-align: center;
+   
+        color: $baseOrangeColor;
+        position: absolute;
+        z-index: 1;
+        font-weight: 700;
+        font-size: 1.5em;
+    }
+
+    .circle {
+    
+        .mask{
+          clip: rect(0px, 10rem, 10rem, 5rem);
+          background-color: #f85a5b;
+
+          width: 10rem;
+          height: 10rem;
+          position: absolute;
+          border-radius: 50%;
+
+          &.full{
+            animation: fill ease-in-out 3s;
+            transform: rotate(135deg);
+
+            .fill{
+            
+
+              width: 10rem;
+              height: 10rem;
+              position: absolute;
+              border-radius: 50%;
+ 
+            }
+
+            
+          }
+
+          .fill{
+            
+            clip: rect(0px, 5rem, 10rem, 0px);
+            background-color: #f85a5b;
+          }
+        }
+      
+        .fill{
+          animation: fill ease-in-out 3s;
+          transform: rotate(135deg);
+        }
+       
+    }
+
+    @keyframes fill{
+      0% {
+      transform: rotate(0deg);
+      }
+      100% {
+      transform: rotate(135deg);
+      }
+    }
+
+    
+}
+
+
+
+
+
+//----------------------------------------------------------------
+
+/*
+.circle-wrap {
+    margin: 150px auto;
+    width: 150px;
+    height: 150px;
+    background: #fefcff;
+    border-radius: 50%;
+    border: 1px solid #cdcbd0;
+  }
+  
+  .circle-wrap .circle .mask,
+  .circle-wrap .circle .fill {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    border-radius: 50%;
+  }
+  
+  .circle-wrap .circle .mask {
+    clip: rect(0px, 150px, 150px, 75px);
+  }
+  
+  .circle-wrap .inside-circle {
+    width: 122px;
+    height: 122px;
+    border-radius: 50%;
+    background: #d2eaf1;
+    line-height: 120px;
+    text-align: center;
+    margin-top: 14px;
+    margin-left: 14px;
+    color: #1e51dc;
+    position: absolute;
+    z-index: 100;
+    font-weight: 700;
+    font-size: 2em;
+  }
+  
+  // color animation 
+  
+  // 3rd progress bar 
+  .mask .fill {
+    clip: rect(0px, 75px, 150px, 0px);
+    background-color: #227ded;
+  }
+  
+  .mask.full,
+  .circle .fill {
+    animation: fill ease-in-out 3s;
+    transform: rotate(135deg);
+  }
+  
+  @keyframes fill{
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(135deg);
+    }
+  }
+  
+  */

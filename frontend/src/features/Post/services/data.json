@@ -1,0 +1,42 @@
+[
+  {
+    "img": "https://picsum.photos/200",
+    "name": "Ediig Melchiior",
+    "username": "@EdiiG",
+    "checked": true,
+    "time": "9h",
+    "place": "Lisbon",
+    "description": "@Lorem ipsum dolor sit amet, #consectetur adipiscing @elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "images": ["https://picsum.photos/500/800", "https://picsum.photos/200/300"]
+  },
+  {
+    "img": "https://picsum.photos/200",
+    "repostName": "Júlio Augusto",
+    "name": "José Congo",
+    "checked": false,
+    "username": "@Partido",
+    "time": "9h",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "images": ["https://picsum.photos/200/300"]
+  },
+  {
+    "img": "https://picsum.photos/200",
+    "repostName": "Júlio Augusto",
+    "name": "José Congo",
+    "checked": false,
+    "username": "@Partido",
+    "time": "11h",
+    "description": "@Lorem Deeply shocked by #Russia’s attacks on civilia We stand with Ukraine. Additional military support from the EU is on",
+
+    "images": ["https://picsum.photos/200/300"]
+  },
+  {
+    "img": "https://picsum.photos/200",
+    "username": "@AS",
+    "name": "Amâncio Sassamba",
+    "checked": true,
+    "time": "9h",
+    "description": "@Lorem ipsum dolor sit amet,  here by #consectetur @elit,  sed do #eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, @brunch quis nostrud exercitation ullamco laboris ni anim id est laborum.",
+    "images": ["https://picsum.photos/200/300"]
+  }
+]

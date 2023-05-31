@@ -1,0 +1,34 @@
+$profilePhotoWidth: 4rem;
+$baseWhiteColor: #ffff;
+.profile_short_container{
+    display: flex;
+    width:100%;
+    justify-content: space-evenly;
+    height: fit-content;
+    align-items: center;
+    background-color: #ffffff;
+    border-bottom: 1px solid #dfdfdf;
+    padding: 0.25rem;
+
+    transition: top 4s ease-in;
+    position: fixed;
+    top:55px;
+    border-top: 1px solid #dfdfdf;
+    z-index:5;
+
+
+    .profile_photo{
+        //position:relative;
+        width: $profilePhotoWidth;
+        //left:20%;
+        aspect-ratio: auto 1;
+        //border: 3px solid $baseWhiteColor;
+        border-radius: 50%;
+      }
+
+    span{
+      color: #677682;
+    }
+   
+
+}

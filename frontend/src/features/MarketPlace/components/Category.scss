@@ -1,0 +1,30 @@
+.category {
+  background: #fff;
+  box-shadow: 0 1px 2px rgb(0 0 0 / 20%);
+  border-radius: 8px;
+}
+.category h3 {
+  font-size: 20px;
+  padding: 10px 15px;
+  font-weight: 600;
+}
+.category ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.category li {
+  display: flex;
+  padding: 10px 15px;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ececec;
+  font-size: 16px;
+}
+.category li:last-child {
+  border: none;
+}
+
+.category svg {
+  font-size: 14px;
+}

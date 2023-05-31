@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+}
+
+input.form-control {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 10px;
+}
+
+input.form-control,
+input.form-control:focus {
+  background: #f0f0ff;
+}
+
+.hint {
+  font-size: 0.6rem;
+}
+
+.error {
+  color: red;
+  font-size: 0.6rem;
+}
+
+.card-sign {
+  box-shadow: rgb(0 0 0 / 10%) 0px 0px 10px;
+  padding: 30px;
+}
+
+.title {
+  color: #f85a5b !important;
+  font-size: 80px;
+  font-weight: bolder;
+}
+
+.btn-signup {
+  background: #f85a5b;
+  color: #fff;
+  width: 100%;
+  padding: 10px;
+  font-size: 18px;
+  font-weight: bolder;
+}
+
+.list-group-item {
+  font-size: 16px;
+}

@@ -1,0 +1,16 @@
+$baseOrangeColor:var(--baseMainColor);
+$baseWhiteColor: #ffff;
+.btn_follow{
+    font-weight: bold!important;
+    padding: 0.75rem!important;
+    border-color: $baseOrangeColor!important;
+    color: $baseOrangeColor!important;
+    background-color: $baseWhiteColor!important;
+    &:hover{
+      background-color: $baseOrangeColor!important;
+      color: $baseWhiteColor!important;
+
+    }
+    
+}
+

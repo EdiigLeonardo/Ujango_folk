@@ -1,0 +1,79 @@
+.post_header{
+    display: flex;
+    align-items: center;
+    padding:1.2rem;
+
+    .profile_photo {
+        width: 46px;
+        aspect-ratio: auto 46 / 46;
+        height: 46px;
+        border-radius: 50%;
+        border: 2px solid #f6b83c;
+        margin-right: 15px;
+        //padding: 1.2rem;
+    }
+
+    /*
+    svg {
+        color: #aaa;
+        font-size: 2rem;
+        margin-right: 1rem;
+    */
+
+    select {
+        background-color: #f5f8fa;
+        color: #2d3436;
+        border: none;
+        border-radius: 0.5rem;
+        padding: 8px 15px;
+        font-size: 14px;
+    }
+
+    .icon_view {
+        
+        svg {
+            font-size: 1.5rem;
+            margin: 0;
+        }
+    }
+
+    .info {
+        align-items: center;
+        gap: 5px;
+        span {
+            align-self: stretch;
+            justify-self: stretch;
+            vertical-align: middle;
+        }
+        svg {
+            font-size: 12px !important;
+            margin: 0 !important;
+        
+        }
+        
+
+       *{
+            &:not(:first-child)::before {
+                content: "";
+                display: inline-block;
+                width: 0.15rem;
+                height: 0.15rem;
+                border-radius: 50%;
+                background-color: #333;
+                margin: 0 0.25rem;
+                vertical-align: middle;
+                border: 1px solid red;
+            }
+        }
+    }
+
+    .name{
+        display: flex;
+        gap: 5px;
+
+        p{
+            margin: 0;
+            font-weight: bold;
+        }
+    }
+}
